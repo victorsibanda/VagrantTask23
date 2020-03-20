@@ -1,1 +1,0 @@
-{"virtualbox":{"/home/ubuntu/db":{"guestpath":"/home/ubuntu/db","hostpath":"/Users/vsibanda/code/opscode/vagrant104/db","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/vsibanda/code/opscode/vagrant104","disabled":false,"__vagrantfile":true}}}

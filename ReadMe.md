@@ -41,5 +41,4 @@ vagrant reload #This restarts mongo services changing the config file
 
 Use terminal from `vagranttask23` to navigate to:
 - `cd test`
-- `cd spec`
-- Then `rake spec` - to run the tests. 
+- Then `rake spec` - to run the tests.
