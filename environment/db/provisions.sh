@@ -11,6 +11,7 @@ echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongod
 sudo apt-get update
 
 sudo apt-get install -y mongodb-org=3.2.20 mongodb-org-server=3.2.20 mongodb-org-shell=3.2.20 mongodb-org-mongos=3.2.20 mongodb-org-tools=3.2.20
+sudo sed -i 's/127.0.0.1/0.0.0.0/g' /etc/mongod.conf
 sudo systemctl start mongod
 sudo systemctl status mongod
 sudo systemctl enable mongod
